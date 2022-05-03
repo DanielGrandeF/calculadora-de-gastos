@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/eef961b107.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"/>
+    
+    
+    
+    <title>Gastos de viaje</title>
+</head>
+<body>
+    <nav class="navbar">
+        <h2>Dani Travels</h2>
+    </nav>
+
+    <div class="main">
+        <form id="vacationCalc">
+            <input type="text" placeholder="Destino" id="destino" required> 
+            <input type="number" placeholder="Presupuesto" id="presupuesto" required>
+            <input type="number" placeholder="Alojamiento" id="alojamiento" required>
+            <input type="number" placeholder="Transporte" id="transporte" required> 
+            <input type="number" placeholder="Comida" id="comida" required>
+            <input type="submit" value="Calcular" class="btn">
+
+        </form>
+    </div>
+
+    <div class="container">
+        <div class="iconos">
+            <h5><i class="fa-solid fa-plane-departure"></i></h5>
+            <h5><i class="fa-solid fa-wallet"></i></h5>
+            <h5><i class="fa-regular fa-money-bill-1"></i></h5>
+        </div>
+
+        <div class="data">
+            <div class="resultado" id="resultado"></div>
+        </div>
+    </div>
+
+
+    <script src="./script.js"></script>
+</body>
+</html>

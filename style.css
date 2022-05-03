@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar{
+    margin: 20px;
+   
+    background:#f0c800;
+}
+
+
+h2{
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+}
+
+.main{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+form{
+    text-align: center;
+    width: 90%;
+    background-color: #fff;
+   padding: 20px;
+  
+   border-radius: 20px;
+
+}
+form input::placeholder{
+    width: 15em;
+    margin: 40px;
+    height: 2em;
+    
+    }
+
+form .btn{
+    margin: 2em 1em;
+  width: 60%;
+  height: 40px;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 2px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  background: #f0c800;
+}
+
+.iconos {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1em;
+  
+  }
+  .fa-solid{
+    font-size: 2.5em;  
+    border-radius: 50%;
+    padding: 40px;
+  
+  }
+  .fa-regular{
+    font-size: 2.5em;  
+    border-radius: 50%;
+    padding: 40px;
+  
+  }
+  .fa-plane-departure {
+    color: #2a96f3;
+  }
+  .fa-wallet {
+    color: #2a96f3;
+  }
+  .fa-money-bill-1{
+    color: #2a96f3;
+  }
+  
+  .container-data {
+    display: flex;
+    justify-content: space-around;
+    margin-top: -1em;
+  }
+  
+  .container-data h6 {
+    text-align: center;
+  }
